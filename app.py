@@ -3,11 +3,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
-from yellowbrick.cluster import KElbowVisualizer,SilhouetteVisualizer
-from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import pickle
